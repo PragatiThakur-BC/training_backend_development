@@ -1,8 +1,9 @@
-# Training on Backend Development
+# :file_folder: Training on Backend Development
 ## Tech Stack:-
-- Python
-- Fast API
-- pgAdmin4
+- Python(Programming Language)
+- Fast API(Framework)
+- pgAdmin4(Management tool - Postgres)
 - Docker(Basics)
 - DataBase- Design, Architecture
-All the training files and materials on backend development
+- Git and Github(Code Management)
+:clipboard: All the training files and materials on backend development
