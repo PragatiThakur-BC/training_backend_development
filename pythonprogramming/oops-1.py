@@ -201,7 +201,7 @@ s2.display()
 
 
 # DIFFERENT INHERITANCES
-# MULTIPLE INHERITANCE
+# MULTILEVEL INHERITANCE
 class StudentGrade(Student):
     def __init__(self, name, age, dob, grade):
         self.gname = name
