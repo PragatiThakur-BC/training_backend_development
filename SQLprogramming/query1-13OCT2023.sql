@@ -55,4 +55,43 @@ SELECT * FROM STUDENT;
 -- Altering table to add country column
 ALTER TABLE student
 ADD Country varchar(50);
-
+-- Updating values to Country column
+UPDATE student
+SET Country = 'USA'
+WHERE id in (1, 2, 3);
+-- Adding few more records to database
+INSERT INTO STUDENT(
+	first_name,
+    last_name,
+    date_of_birth,
+    date_of_joining,
+    gender,
+    Country
+)
+VALUES
+(
+	'Ricky',
+    'Dwell',
+    '1998-04-20',
+    current_date(),
+    'M',
+    'UK'
+),
+(
+	'Hao',
+    'Ren',
+    '2000-07-13',
+    current_date(),
+    'M',
+    'China'
+),
+(
+	'Ji Woong',
+    'kim',
+    '1997-10-08',
+    current_date(),
+    'M',
+    'South Korea'
+);
+-- Lets Look at the table
+SELECT * FROM student;
