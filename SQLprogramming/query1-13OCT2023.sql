@@ -95,3 +95,29 @@ VALUES
 );
 -- Lets Look at the table
 SELECT * FROM student;
+
+-- inserting data for computations which were done on 17 OCT file
+INSERT INTO STUDENT(
+	first_name,
+    last_name,
+    date_of_birth,
+    date_of_joining,
+    gender,
+    Country,
+    Age
+)
+VALUES
+(
+	'William',
+    'William',
+    '1999-06-20',
+    current_date(),
+    'M',
+    'UK',
+    23
+);
+
+
+
+
+
