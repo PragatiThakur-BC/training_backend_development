@@ -99,3 +99,7 @@ SELECT * FROM STUDENT;
 UPDATE STUDENT 
 SET Age = 24
 WHERE id = 13;
+
+-- OFFSET TO SKIP FIRST N ROWS
+/*Below code skips(OFFSET) first 3 records and limits(LIMIT) the o/p to 3 records after skipping first 3 */
+SELECT * FROM STUDENT LIMIT 3 OFFSET 3;
