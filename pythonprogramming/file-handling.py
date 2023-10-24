@@ -1,6 +1,6 @@
 fhand = open('filehandlingexample.txt')
 """
-this gives handle of file(Kind of wrapper around file)within which we can interact 
+this gives handle of file(Kind of wrapper around file)within which we can interact
 to read, write, update any file operations.
 """
 print(fhand)
@@ -33,3 +33,13 @@ count = 0
 for line in fhandle:
     count = count + 1
 print("Num of lines in file {0} are {1} : ".format(fname, count))
+"""
+    Counting the words and it's occurance in the line
+"""
+line_input = input("Enter a line: ")
+line = line_input.split()
+print("Words of line: ", line)
+count = { }
+for word in line:
+    count[word] = count.get(word, 0) + 1
+print("count: ", count)
