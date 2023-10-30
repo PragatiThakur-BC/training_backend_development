@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = ""
+authors = [""]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+charset-normalizer = "^3.3.1"
